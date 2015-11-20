@@ -11,12 +11,25 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-develop-server": "^0.5.0",
-    "gulp-jshint": "^1.12.0"
+    "gulp-jshint": "^1.12.0",
+    "jsdoc": "^3.4.0",
+    "mocha": "^2.3.4",
+    "should": "^7.1.1",
+    "supertest": "^1.1.0"
   },
   "dependencies": {
+    "async": "^1.5.0",
     "body-parser": "^1.14.1",
+    "connect-redis": "^3.0.1",
     "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "fs": "0.0.2",
+    "http-proxy": "^1.12.0",
+    "morgan": "^1.6.1",
     "multer": "^1.1.0",
+    "mysql": "^2.9.0",
+    "node-mysql": "^0.4.2",
+    "xls-to-json": "^0.3.2",
     "xlsx-to-json": "^0.2.4"
   }
 }
